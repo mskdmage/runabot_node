@@ -20,11 +20,12 @@ function main() {
         robot.mouseClick();
         sleep(5000);
     }
-    console.log('Terminando');
+    console.log('???');
 }
 
 //Find Object
 function findObject(object) {
+    
     let screenSize = robot.getScreenSize()    
     let x = 0, y = 0, width = screenSize.width, height = screenSize.height;
     let capture = robot.screen.capture(x, y, width, height);
